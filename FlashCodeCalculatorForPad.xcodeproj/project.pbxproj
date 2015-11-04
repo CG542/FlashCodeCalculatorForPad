@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15A8AB11BEA4D1700A4B634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A8AB01BEA4D1700A4B634 /* AppDelegate.swift */; };
+		A15A8AB41BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A8AB21BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld */; };
+		A15A8AB61BEA4D1700A4B634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A8AB51BEA4D1700A4B634 /* ViewController.swift */; };
+		A15A8AB91BEA4D1700A4B634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15A8AB71BEA4D1700A4B634 /* Main.storyboard */; };
+		A15A8ABB1BEA4D1700A4B634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15A8ABA1BEA4D1700A4B634 /* Images.xcassets */; };
+		A15A8ABE1BEA4D1700A4B634 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15A8ABC1BEA4D1700A4B634 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15A8AC41BEA4D1700A4B634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15A8AA31BEA4D1600A4B634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15A8AAA1BEA4D1700A4B634;
+			remoteInfo = FlashCodeCalculatorForPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15A8AAB1BEA4D1700A4B634 /* FlashCodeCalculatorForPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCodeCalculatorForPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15A8AAF1BEA4D1700A4B634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15A8AB01BEA4D1700A4B634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A15A8AB31BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashCodeCalculatorForPad.xcdatamodel; sourceTree = "<group>"; };
+		A15A8AB51BEA4D1700A4B634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A15A8AB81BEA4D1700A4B634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A15A8ABA1BEA4D1700A4B634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A15A8ABD1BEA4D1700A4B634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A15A8AC31BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCodeCalculatorForPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15A8AA81BEA4D1700A4B634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15A8AC01BEA4D1700A4B634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15A8AA21BEA4D1600A4B634 = {
+			isa = PBXGroup;
+			children = (
+				A15A8AD41BEA4DA200A4B634 /* BusinessLayer */,
+				A15A8AD31BEA4D9500A4B634 /* DatabaseLayer */,
+				A15A8AAD1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */,
+				A15A8AAC1BEA4D1700A4B634 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A15A8AAC1BEA4D1700A4B634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15A8AAB1BEA4D1700A4B634 /* FlashCodeCalculatorForPad.app */,
+				A15A8AC31BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15A8AAD1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */ = {
+			isa = PBXGroup;
+			children = (
+				A15A8AB51BEA4D1700A4B634 /* ViewController.swift */,
+				A15A8AB71BEA4D1700A4B634 /* Main.storyboard */,
+				A15A8AAE1BEA4D1700A4B634 /* Supporting Files */,
+			);
+			path = FlashCodeCalculatorForPad;
+			sourceTree = "<group>";
+		};
+		A15A8AAE1BEA4D1700A4B634 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15A8ABC1BEA4D1700A4B634 /* LaunchScreen.xib */,
+				A15A8ABA1BEA4D1700A4B634 /* Images.xcassets */,
+				A15A8AB01BEA4D1700A4B634 /* AppDelegate.swift */,
+				A15A8AAF1BEA4D1700A4B634 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A15A8AD31BEA4D9500A4B634 /* DatabaseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A15A8AB21BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld */,
+			);
+			name = DatabaseLayer;
+			sourceTree = "<group>";
+		};
+		A15A8AD41BEA4DA200A4B634 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BusinessLayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15A8AAA1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15A8ACD1BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPad" */;
+			buildPhases = (
+				A15A8AA71BEA4D1700A4B634 /* Sources */,
+				A15A8AA81BEA4D1700A4B634 /* Frameworks */,
+				A15A8AA91BEA4D1700A4B634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCodeCalculatorForPad;
+			productName = FlashCodeCalculatorForPad;
+			productReference = A15A8AAB1BEA4D1700A4B634 /* FlashCodeCalculatorForPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A15A8AC21BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15A8AD01BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */;
+			buildPhases = (
+				A15A8ABF1BEA4D1700A4B634 /* Sources */,
+				A15A8AC01BEA4D1700A4B634 /* Frameworks */,
+				A15A8AC11BEA4D1700A4B634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15A8AC51BEA4D1700A4B634 /* PBXTargetDependency */,
+			);
+			name = FlashCodeCalculatorForPadTests;
+			productName = FlashCodeCalculatorForPadTests;
+			productReference = A15A8AC31BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15A8AA31BEA4D1600A4B634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Mot;
+				TargetAttributes = {
+					A15A8AAA1BEA4D1700A4B634 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A15A8AC21BEA4D1700A4B634 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A15A8AAA1BEA4D1700A4B634;
+					};
+				};
+			};
+			buildConfigurationList = A15A8AA61BEA4D1600A4B634 /* Build configuration list for PBXProject "FlashCodeCalculatorForPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A15A8AA21BEA4D1600A4B634;
+			productRefGroup = A15A8AAC1BEA4D1700A4B634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15A8AAA1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */,
+				A15A8AC21BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15A8AA91BEA4D1700A4B634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15A8AB91BEA4D1700A4B634 /* Main.storyboard in Resources */,
+				A15A8ABE1BEA4D1700A4B634 /* LaunchScreen.xib in Resources */,
+				A15A8ABB1BEA4D1700A4B634 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15A8AC11BEA4D1700A4B634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15A8AA71BEA4D1700A4B634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15A8AB61BEA4D1700A4B634 /* ViewController.swift in Sources */,
+				A15A8AB11BEA4D1700A4B634 /* AppDelegate.swift in Sources */,
+				A15A8AB41BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15A8ABF1BEA4D1700A4B634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15A8AC51BEA4D1700A4B634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15A8AAA1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */;
+			targetProxy = A15A8AC41BEA4D1700A4B634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A15A8AB71BEA4D1700A4B634 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15A8AB81BEA4D1700A4B634 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A15A8ABC1BEA4D1700A4B634 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15A8ABD1BEA4D1700A4B634 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15A8ACB1BEA4D1700A4B634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A15A8ACC1BEA4D1700A4B634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15A8ACE1BEA4D1700A4B634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FlashCodeCalculatorForPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A15A8ACF1BEA4D1700A4B634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FlashCodeCalculatorForPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A15A8AD11BEA4D1700A4B634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashCodeCalculatorForPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCodeCalculatorForPad.app/FlashCodeCalculatorForPad";
+			};
+			name = Debug;
+		};
+		A15A8AD21BEA4D1700A4B634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashCodeCalculatorForPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCodeCalculatorForPad.app/FlashCodeCalculatorForPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15A8AA61BEA4D1600A4B634 /* Build configuration list for PBXProject "FlashCodeCalculatorForPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A8ACB1BEA4D1700A4B634 /* Debug */,
+				A15A8ACC1BEA4D1700A4B634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15A8ACD1BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A8ACE1BEA4D1700A4B634 /* Debug */,
+				A15A8ACF1BEA4D1700A4B634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15A8AD01BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A8AD11BEA4D1700A4B634 /* Debug */,
+				A15A8AD21BEA4D1700A4B634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A15A8AB21BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A15A8AB31BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodel */,
+			);
+			currentVersion = A15A8AB31BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodel */;
+			name = FlashCodeCalculatorForPad.xcdatamodeld;
+			path = FlashCodeCalculatorForPad/FlashCodeCalculatorForPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A15A8AA31BEA4D1600A4B634 /* Project object */;
+}
