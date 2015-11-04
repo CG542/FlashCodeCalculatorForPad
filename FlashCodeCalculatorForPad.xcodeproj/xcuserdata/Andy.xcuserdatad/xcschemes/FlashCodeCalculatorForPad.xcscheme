@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A15A8AAA1BEA4D1700A4B634"
+               BlueprintIdentifier = "A1BD815F1BEA56CB001A397E"
                BuildableName = "FlashCodeCalculatorForPad.app"
                BlueprintName = "FlashCodeCalculatorForPad"
                ReferencedContainer = "container:FlashCodeCalculatorForPad.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A15A8AC21BEA4D1700A4B634"
+               BlueprintIdentifier = "A1BD81771BEA56CB001A397E"
                BuildableName = "FlashCodeCalculatorForPadTests.xctest"
                BlueprintName = "FlashCodeCalculatorForPadTests"
                ReferencedContainer = "container:FlashCodeCalculatorForPad.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A15A8AC21BEA4D1700A4B634"
+               BlueprintIdentifier = "A1BD81771BEA56CB001A397E"
                BuildableName = "FlashCodeCalculatorForPadTests.xctest"
                BlueprintName = "FlashCodeCalculatorForPadTests"
                ReferencedContainer = "container:FlashCodeCalculatorForPad.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A15A8AAA1BEA4D1700A4B634"
+            BlueprintIdentifier = "A1BD815F1BEA56CB001A397E"
             BuildableName = "FlashCodeCalculatorForPad.app"
             BlueprintName = "FlashCodeCalculatorForPad"
             ReferencedContainer = "container:FlashCodeCalculatorForPad.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A15A8AAA1BEA4D1700A4B634"
+            BlueprintIdentifier = "A1BD815F1BEA56CB001A397E"
             BuildableName = "FlashCodeCalculatorForPad.app"
             BlueprintName = "FlashCodeCalculatorForPad"
             ReferencedContainer = "container:FlashCodeCalculatorForPad.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A15A8AAA1BEA4D1700A4B634"
+            BlueprintIdentifier = "A1BD815F1BEA56CB001A397E"
             BuildableName = "FlashCodeCalculatorForPad.app"
             BlueprintName = "FlashCodeCalculatorForPad"
             ReferencedContainer = "container:FlashCodeCalculatorForPad.xcodeproj">

@@ -7,45 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A15A8AB11BEA4D1700A4B634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A8AB01BEA4D1700A4B634 /* AppDelegate.swift */; };
-		A15A8AB41BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A15A8AB21BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld */; };
-		A15A8AB61BEA4D1700A4B634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15A8AB51BEA4D1700A4B634 /* ViewController.swift */; };
-		A15A8AB91BEA4D1700A4B634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15A8AB71BEA4D1700A4B634 /* Main.storyboard */; };
-		A15A8ABB1BEA4D1700A4B634 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15A8ABA1BEA4D1700A4B634 /* Images.xcassets */; };
-		A15A8ABE1BEA4D1700A4B634 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15A8ABC1BEA4D1700A4B634 /* LaunchScreen.xib */; };
+		A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD81651BEA56CB001A397E /* AppDelegate.swift */; };
+		A1BD81691BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1BD81671BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld */; };
+		A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD816A1BEA56CB001A397E /* ViewController.swift */; };
+		A1BD816E1BEA56CB001A397E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BD816C1BEA56CB001A397E /* Main.storyboard */; };
+		A1BD81701BEA56CB001A397E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BD816F1BEA56CB001A397E /* Images.xcassets */; };
+		A1BD81731BEA56CB001A397E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD81711BEA56CB001A397E /* LaunchScreen.xib */; };
+		A1BD817F1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD817E1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A15A8AC41BEA4D1700A4B634 /* PBXContainerItemProxy */ = {
+		A1BD81791BEA56CB001A397E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A15A8AA31BEA4D1600A4B634 /* Project object */;
+			containerPortal = A1BD81581BEA56CB001A397E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A15A8AAA1BEA4D1700A4B634;
+			remoteGlobalIDString = A1BD815F1BEA56CB001A397E;
 			remoteInfo = FlashCodeCalculatorForPad;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A15A8AAB1BEA4D1700A4B634 /* FlashCodeCalculatorForPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCodeCalculatorForPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A15A8AAF1BEA4D1700A4B634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A15A8AB01BEA4D1700A4B634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A15A8AB31BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashCodeCalculatorForPad.xcdatamodel; sourceTree = "<group>"; };
-		A15A8AB51BEA4D1700A4B634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A15A8AB81BEA4D1700A4B634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A15A8ABA1BEA4D1700A4B634 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A15A8ABD1BEA4D1700A4B634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A15A8AC31BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCodeCalculatorForPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BD81601BEA56CB001A397E /* FlashCodeCalculatorForPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCodeCalculatorForPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BD81641BEA56CB001A397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BD81651BEA56CB001A397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1BD81681BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashCodeCalculatorForPad.xcdatamodel; sourceTree = "<group>"; };
+		A1BD816A1BEA56CB001A397E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1BD816D1BEA56CB001A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1BD816F1BEA56CB001A397E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1BD81721BEA56CB001A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1BD81781BEA56CB001A397E /* FlashCodeCalculatorForPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCodeCalculatorForPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BD817D1BEA56CB001A397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BD817E1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCodeCalculatorForPadTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A15A8AA81BEA4D1700A4B634 /* Frameworks */ = {
+		A1BD815D1BEA56CB001A397E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A15A8AC01BEA4D1700A4B634 /* Frameworks */ = {
+		A1BD81751BEA56CB001A397E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,71 +58,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A15A8AA21BEA4D1600A4B634 = {
+		A1BD81571BEA56CB001A397E = {
 			isa = PBXGroup;
 			children = (
-				A15A8AD41BEA4DA200A4B634 /* BusinessLayer */,
-				A15A8AD31BEA4D9500A4B634 /* DatabaseLayer */,
-				A15A8AAD1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */,
-				A15A8AAC1BEA4D1700A4B634 /* Products */,
+				A1BD81621BEA56CB001A397E /* FlashCodeCalculatorForPad */,
+				A1BD817B1BEA56CB001A397E /* FlashCodeCalculatorForPadTests */,
+				A1BD81611BEA56CB001A397E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A15A8AAC1BEA4D1700A4B634 /* Products */ = {
+		A1BD81611BEA56CB001A397E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A15A8AAB1BEA4D1700A4B634 /* FlashCodeCalculatorForPad.app */,
-				A15A8AC31BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests.xctest */,
+				A1BD81601BEA56CB001A397E /* FlashCodeCalculatorForPad.app */,
+				A1BD81781BEA56CB001A397E /* FlashCodeCalculatorForPadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A15A8AAD1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */ = {
+		A1BD81621BEA56CB001A397E /* FlashCodeCalculatorForPad */ = {
 			isa = PBXGroup;
 			children = (
-				A15A8AB51BEA4D1700A4B634 /* ViewController.swift */,
-				A15A8AB71BEA4D1700A4B634 /* Main.storyboard */,
-				A15A8AAE1BEA4D1700A4B634 /* Supporting Files */,
+				A1BD81651BEA56CB001A397E /* AppDelegate.swift */,
+				A1BD816A1BEA56CB001A397E /* ViewController.swift */,
+				A1BD816C1BEA56CB001A397E /* Main.storyboard */,
+				A1BD816F1BEA56CB001A397E /* Images.xcassets */,
+				A1BD81711BEA56CB001A397E /* LaunchScreen.xib */,
+				A1BD81671BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld */,
+				A1BD81631BEA56CB001A397E /* Supporting Files */,
 			);
 			path = FlashCodeCalculatorForPad;
 			sourceTree = "<group>";
 		};
-		A15A8AAE1BEA4D1700A4B634 /* Supporting Files */ = {
+		A1BD81631BEA56CB001A397E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A15A8ABC1BEA4D1700A4B634 /* LaunchScreen.xib */,
-				A15A8ABA1BEA4D1700A4B634 /* Images.xcassets */,
-				A15A8AB01BEA4D1700A4B634 /* AppDelegate.swift */,
-				A15A8AAF1BEA4D1700A4B634 /* Info.plist */,
+				A1BD81641BEA56CB001A397E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A15A8AD31BEA4D9500A4B634 /* DatabaseLayer */ = {
+		A1BD817B1BEA56CB001A397E /* FlashCodeCalculatorForPadTests */ = {
 			isa = PBXGroup;
 			children = (
-				A15A8AB21BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld */,
+				A1BD817E1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift */,
+				A1BD817C1BEA56CB001A397E /* Supporting Files */,
 			);
-			name = DatabaseLayer;
+			path = FlashCodeCalculatorForPadTests;
 			sourceTree = "<group>";
 		};
-		A15A8AD41BEA4DA200A4B634 /* BusinessLayer */ = {
+		A1BD817C1BEA56CB001A397E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1BD817D1BEA56CB001A397E /* Info.plist */,
 			);
-			name = BusinessLayer;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A15A8AAA1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */ = {
+		A1BD815F1BEA56CB001A397E /* FlashCodeCalculatorForPad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A15A8ACD1BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPad" */;
+			buildConfigurationList = A1BD81821BEA56CB001A397E /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPad" */;
 			buildPhases = (
-				A15A8AA71BEA4D1700A4B634 /* Sources */,
-				A15A8AA81BEA4D1700A4B634 /* Frameworks */,
-				A15A8AA91BEA4D1700A4B634 /* Resources */,
+				A1BD815C1BEA56CB001A397E /* Sources */,
+				A1BD815D1BEA56CB001A397E /* Frameworks */,
+				A1BD815E1BEA56CB001A397E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -127,46 +132,46 @@
 			);
 			name = FlashCodeCalculatorForPad;
 			productName = FlashCodeCalculatorForPad;
-			productReference = A15A8AAB1BEA4D1700A4B634 /* FlashCodeCalculatorForPad.app */;
+			productReference = A1BD81601BEA56CB001A397E /* FlashCodeCalculatorForPad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A15A8AC21BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests */ = {
+		A1BD81771BEA56CB001A397E /* FlashCodeCalculatorForPadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A15A8AD01BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */;
+			buildConfigurationList = A1BD81851BEA56CB001A397E /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */;
 			buildPhases = (
-				A15A8ABF1BEA4D1700A4B634 /* Sources */,
-				A15A8AC01BEA4D1700A4B634 /* Frameworks */,
-				A15A8AC11BEA4D1700A4B634 /* Resources */,
+				A1BD81741BEA56CB001A397E /* Sources */,
+				A1BD81751BEA56CB001A397E /* Frameworks */,
+				A1BD81761BEA56CB001A397E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A15A8AC51BEA4D1700A4B634 /* PBXTargetDependency */,
+				A1BD817A1BEA56CB001A397E /* PBXTargetDependency */,
 			);
 			name = FlashCodeCalculatorForPadTests;
 			productName = FlashCodeCalculatorForPadTests;
-			productReference = A15A8AC31BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests.xctest */;
+			productReference = A1BD81781BEA56CB001A397E /* FlashCodeCalculatorForPadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A15A8AA31BEA4D1600A4B634 /* Project object */ = {
+		A1BD81581BEA56CB001A397E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Mot;
 				TargetAttributes = {
-					A15A8AAA1BEA4D1700A4B634 = {
+					A1BD815F1BEA56CB001A397E = {
 						CreatedOnToolsVersion = 6.1;
 					};
-					A15A8AC21BEA4D1700A4B634 = {
+					A1BD81771BEA56CB001A397E = {
 						CreatedOnToolsVersion = 6.1;
-						TestTargetID = A15A8AAA1BEA4D1700A4B634;
+						TestTargetID = A1BD815F1BEA56CB001A397E;
 					};
 				};
 			};
-			buildConfigurationList = A15A8AA61BEA4D1600A4B634 /* Build configuration list for PBXProject "FlashCodeCalculatorForPad" */;
+			buildConfigurationList = A1BD815B1BEA56CB001A397E /* Build configuration list for PBXProject "FlashCodeCalculatorForPad" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -174,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = A15A8AA21BEA4D1600A4B634;
-			productRefGroup = A15A8AAC1BEA4D1700A4B634 /* Products */;
+			mainGroup = A1BD81571BEA56CB001A397E;
+			productRefGroup = A1BD81611BEA56CB001A397E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A15A8AAA1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */,
-				A15A8AC21BEA4D1700A4B634 /* FlashCodeCalculatorForPadTests */,
+				A1BD815F1BEA56CB001A397E /* FlashCodeCalculatorForPad */,
+				A1BD81771BEA56CB001A397E /* FlashCodeCalculatorForPadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A15A8AA91BEA4D1700A4B634 /* Resources */ = {
+		A1BD815E1BEA56CB001A397E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15A8AB91BEA4D1700A4B634 /* Main.storyboard in Resources */,
-				A15A8ABE1BEA4D1700A4B634 /* LaunchScreen.xib in Resources */,
-				A15A8ABB1BEA4D1700A4B634 /* Images.xcassets in Resources */,
+				A1BD816E1BEA56CB001A397E /* Main.storyboard in Resources */,
+				A1BD81731BEA56CB001A397E /* LaunchScreen.xib in Resources */,
+				A1BD81701BEA56CB001A397E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A15A8AC11BEA4D1700A4B634 /* Resources */ = {
+		A1BD81761BEA56CB001A397E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -206,46 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A15A8AA71BEA4D1700A4B634 /* Sources */ = {
+		A1BD815C1BEA56CB001A397E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15A8AB61BEA4D1700A4B634 /* ViewController.swift in Sources */,
-				A15A8AB11BEA4D1700A4B634 /* AppDelegate.swift in Sources */,
-				A15A8AB41BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */,
+				A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */,
+				A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */,
+				A1BD81691BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A15A8ABF1BEA4D1700A4B634 /* Sources */ = {
+		A1BD81741BEA56CB001A397E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BD817F1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A15A8AC51BEA4D1700A4B634 /* PBXTargetDependency */ = {
+		A1BD817A1BEA56CB001A397E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A15A8AAA1BEA4D1700A4B634 /* FlashCodeCalculatorForPad */;
-			targetProxy = A15A8AC41BEA4D1700A4B634 /* PBXContainerItemProxy */;
+			target = A1BD815F1BEA56CB001A397E /* FlashCodeCalculatorForPad */;
+			targetProxy = A1BD81791BEA56CB001A397E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A15A8AB71BEA4D1700A4B634 /* Main.storyboard */ = {
+		A1BD816C1BEA56CB001A397E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A15A8AB81BEA4D1700A4B634 /* Base */,
+				A1BD816D1BEA56CB001A397E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A15A8ABC1BEA4D1700A4B634 /* LaunchScreen.xib */ = {
+		A1BD81711BEA56CB001A397E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A15A8ABD1BEA4D1700A4B634 /* Base */,
+				A1BD81721BEA56CB001A397E /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -253,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A15A8ACB1BEA4D1700A4B634 /* Debug */ = {
+		A1BD81801BEA56CB001A397E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		A15A8ACC1BEA4D1700A4B634 /* Release */ = {
+		A1BD81811BEA56CB001A397E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,31 +338,27 @@
 			};
 			name = Release;
 		};
-		A15A8ACE1BEA4D1700A4B634 /* Debug */ = {
+		A1BD81831BEA56CB001A397E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlashCodeCalculatorForPad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A15A8ACF1BEA4D1700A4B634 /* Release */ = {
+		A1BD81841BEA56CB001A397E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FlashCodeCalculatorForPad/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		A15A8AD11BEA4D1700A4B634 /* Debug */ = {
+		A1BD81861BEA56CB001A397E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		A15A8AD21BEA4D1700A4B634 /* Release */ = {
+		A1BD81871BEA56CB001A397E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -393,48 +395,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A15A8AA61BEA4D1600A4B634 /* Build configuration list for PBXProject "FlashCodeCalculatorForPad" */ = {
+		A1BD815B1BEA56CB001A397E /* Build configuration list for PBXProject "FlashCodeCalculatorForPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15A8ACB1BEA4D1700A4B634 /* Debug */,
-				A15A8ACC1BEA4D1700A4B634 /* Release */,
+				A1BD81801BEA56CB001A397E /* Debug */,
+				A1BD81811BEA56CB001A397E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A15A8ACD1BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPad" */ = {
+		A1BD81821BEA56CB001A397E /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15A8ACE1BEA4D1700A4B634 /* Debug */,
-				A15A8ACF1BEA4D1700A4B634 /* Release */,
+				A1BD81831BEA56CB001A397E /* Debug */,
+				A1BD81841BEA56CB001A397E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		A15A8AD01BEA4D1700A4B634 /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */ = {
+		A1BD81851BEA56CB001A397E /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A15A8AD11BEA4D1700A4B634 /* Debug */,
-				A15A8AD21BEA4D1700A4B634 /* Release */,
+				A1BD81861BEA56CB001A397E /* Debug */,
+				A1BD81871BEA56CB001A397E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A15A8AB21BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodeld */ = {
+		A1BD81671BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A15A8AB31BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodel */,
+				A1BD81681BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodel */,
 			);
-			currentVersion = A15A8AB31BEA4D1700A4B634 /* FlashCodeCalculatorForPad.xcdatamodel */;
-			name = FlashCodeCalculatorForPad.xcdatamodeld;
-			path = FlashCodeCalculatorForPad/FlashCodeCalculatorForPad.xcdatamodeld;
+			currentVersion = A1BD81681BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodel */;
+			path = FlashCodeCalculatorForPad.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A15A8AA31BEA4D1600A4B634 /* Project object */;
+	rootObject = A1BD81581BEA56CB001A397E /* Project object */;
 }
