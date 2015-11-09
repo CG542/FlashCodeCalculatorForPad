@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17ED4421BEE3B0C009D06CF /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */; };
+		A17ED4431BEE3B0C009D06CF /* DB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A17ED43F1BEE3B0C009D06CF /* DB.bundle */; };
+		A17ED4461BEE3BBF009D06CF /* RadioFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */; };
+		A17ED4481BEE4770009D06CF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED4471BEE4770009D06CF /* libsqlite3.dylib */; };
 		A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD81651BEA56CB001A397E /* AppDelegate.swift */; };
-		A1BD81691BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1BD81671BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld */; };
 		A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD816A1BEA56CB001A397E /* ViewController.swift */; };
 		A1BD816E1BEA56CB001A397E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BD816C1BEA56CB001A397E /* Main.storyboard */; };
 		A1BD81701BEA56CB001A397E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BD816F1BEA56CB001A397E /* Images.xcassets */; };
 		A1BD81731BEA56CB001A397E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD81711BEA56CB001A397E /* LaunchScreen.xib */; };
 		A1BD817F1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD817E1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift */; };
+		A1C471951BF0D95000431922 /* HOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C471941BF0D95000431922 /* HOption.swift */; };
+		A1C471971BF0DFDF00431922 /* FrequencyBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C471961BF0DFDF00431922 /* FrequencyBand.swift */; };
+		A1C471991BF0F3C300431922 /* FrequencyBandModelNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C471981BF0F3C300431922 /* FrequencyBandModelNumber.swift */; };
+		A1C4719B1BF0F59000431922 /* FLASHCodeLetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4719A1BF0F59000431922 /* FLASHCodeLetter.swift */; };
+		A1C4719D1BF0F74300431922 /* HOptionCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4719C1BF0F74300431922 /* HOptionCompatibility.swift */; };
+		A1C4719F1BF0F8C500431922 /* ModelNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4719E1BF0F8C500431922 /* ModelNumber.swift */; };
+		A1C471A11BF0FA2400431922 /* ModelNumberToHOptionCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C471A01BF0FA2400431922 /* ModelNumberToHOptionCompatibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = DatabaseLayer/DatabaseHelper.swift; sourceTree = "<group>"; };
+		A17ED43F1BEE3B0C009D06CF /* DB.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DB.bundle; path = DatabaseLayer/DB.bundle; sourceTree = "<group>"; };
+		A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioFamily.swift; path = DatabaseLayer/RadioFamily.swift; sourceTree = "<group>"; };
+		A17ED4471BEE4770009D06CF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A17ED4491BEE4ACA009D06CF /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "DatabaseLayer/Bridging-Header.h"; sourceTree = "<group>"; };
 		A1BD81601BEA56CB001A397E /* FlashCodeCalculatorForPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCodeCalculatorForPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BD81641BEA56CB001A397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BD81651BEA56CB001A397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1BD81681BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlashCodeCalculatorForPad.xcdatamodel; sourceTree = "<group>"; };
 		A1BD816A1BEA56CB001A397E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1BD816D1BEA56CB001A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1BD816F1BEA56CB001A397E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -38,6 +52,13 @@
 		A1BD81781BEA56CB001A397E /* FlashCodeCalculatorForPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCodeCalculatorForPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BD817D1BEA56CB001A397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BD817E1BEA56CB001A397E /* FlashCodeCalculatorForPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCodeCalculatorForPadTests.swift; sourceTree = "<group>"; };
+		A1C471941BF0D95000431922 /* HOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HOption.swift; path = DatabaseLayer/HOption.swift; sourceTree = "<group>"; };
+		A1C471961BF0DFDF00431922 /* FrequencyBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrequencyBand.swift; path = DatabaseLayer/FrequencyBand.swift; sourceTree = "<group>"; };
+		A1C471981BF0F3C300431922 /* FrequencyBandModelNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrequencyBandModelNumber.swift; path = DatabaseLayer/FrequencyBandModelNumber.swift; sourceTree = "<group>"; };
+		A1C4719A1BF0F59000431922 /* FLASHCodeLetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FLASHCodeLetter.swift; path = DatabaseLayer/FLASHCodeLetter.swift; sourceTree = "<group>"; };
+		A1C4719C1BF0F74300431922 /* HOptionCompatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HOptionCompatibility.swift; path = DatabaseLayer/HOptionCompatibility.swift; sourceTree = "<group>"; };
+		A1C4719E1BF0F8C500431922 /* ModelNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelNumber.swift; path = DatabaseLayer/ModelNumber.swift; sourceTree = "<group>"; };
+		A1C471A01BF0FA2400431922 /* ModelNumberToHOptionCompatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelNumberToHOptionCompatibility.swift; path = DatabaseLayer/ModelNumberToHOptionCompatibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17ED4481BEE4770009D06CF /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,9 +80,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A15E42FC1BEA57930046C23D /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		A15E42FD1BEA579B0046C23D /* DatabaseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */,
+				A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */,
+				A17ED43F1BEE3B0C009D06CF /* DB.bundle */,
+				A17ED4491BEE4ACA009D06CF /* Bridging-Header.h */,
+				A1C471941BF0D95000431922 /* HOption.swift */,
+				A1C471961BF0DFDF00431922 /* FrequencyBand.swift */,
+				A1C471981BF0F3C300431922 /* FrequencyBandModelNumber.swift */,
+				A1C4719A1BF0F59000431922 /* FLASHCodeLetter.swift */,
+				A1C4719C1BF0F74300431922 /* HOptionCompatibility.swift */,
+				A1C4719E1BF0F8C500431922 /* ModelNumber.swift */,
+				A1C471A01BF0FA2400431922 /* ModelNumberToHOptionCompatibility.swift */,
+			);
+			name = DatabaseLayer;
+			sourceTree = "<group>";
+		};
 		A1BD81571BEA56CB001A397E = {
 			isa = PBXGroup;
 			children = (
+				A17ED4471BEE4770009D06CF /* libsqlite3.dylib */,
+				A15E42FD1BEA579B0046C23D /* DatabaseLayer */,
+				A15E42FC1BEA57930046C23D /* BusinessLayer */,
 				A1BD81621BEA56CB001A397E /* FlashCodeCalculatorForPad */,
 				A1BD817B1BEA56CB001A397E /* FlashCodeCalculatorForPadTests */,
 				A1BD81611BEA56CB001A397E /* Products */,
@@ -79,12 +129,8 @@
 		A1BD81621BEA56CB001A397E /* FlashCodeCalculatorForPad */ = {
 			isa = PBXGroup;
 			children = (
-				A1BD81651BEA56CB001A397E /* AppDelegate.swift */,
 				A1BD816A1BEA56CB001A397E /* ViewController.swift */,
 				A1BD816C1BEA56CB001A397E /* Main.storyboard */,
-				A1BD816F1BEA56CB001A397E /* Images.xcassets */,
-				A1BD81711BEA56CB001A397E /* LaunchScreen.xib */,
-				A1BD81671BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld */,
 				A1BD81631BEA56CB001A397E /* Supporting Files */,
 			);
 			path = FlashCodeCalculatorForPad;
@@ -93,6 +139,9 @@
 		A1BD81631BEA56CB001A397E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1BD81711BEA56CB001A397E /* LaunchScreen.xib */,
+				A1BD816F1BEA56CB001A397E /* Images.xcassets */,
+				A1BD81651BEA56CB001A397E /* AppDelegate.swift */,
 				A1BD81641BEA56CB001A397E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +247,7 @@
 				A1BD816E1BEA56CB001A397E /* Main.storyboard in Resources */,
 				A1BD81731BEA56CB001A397E /* LaunchScreen.xib in Resources */,
 				A1BD81701BEA56CB001A397E /* Images.xcassets in Resources */,
+				A17ED4431BEE3B0C009D06CF /* DB.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +265,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17ED4421BEE3B0C009D06CF /* DatabaseHelper.swift in Sources */,
+				A1C4719B1BF0F59000431922 /* FLASHCodeLetter.swift in Sources */,
+				A1C471951BF0D95000431922 /* HOption.swift in Sources */,
+				A1C471A11BF0FA2400431922 /* ModelNumberToHOptionCompatibility.swift in Sources */,
+				A17ED4461BEE3BBF009D06CF /* RadioFamily.swift in Sources */,
+				A1C4719D1BF0F74300431922 /* HOptionCompatibility.swift in Sources */,
 				A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */,
+				A1C471991BF0F3C300431922 /* FrequencyBandModelNumber.swift in Sources */,
 				A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */,
-				A1BD81691BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld in Sources */,
+				A1C4719F1BF0F8C500431922 /* ModelNumber.swift in Sources */,
+				A1C471971BF0DFDF00431922 /* FrequencyBand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlashCodeCalculatorForPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DatabaseLayer/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -353,8 +413,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlashCodeCalculatorForPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DatabaseLayer/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +473,7 @@
 				A1BD81841BEA56CB001A397E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1BD81851BEA56CB001A397E /* Build configuration list for PBXNativeTarget "FlashCodeCalculatorForPadTests" */ = {
 			isa = XCConfigurationList;
@@ -419,21 +482,9 @@
 				A1BD81871BEA56CB001A397E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A1BD81671BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A1BD81681BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodel */,
-			);
-			currentVersion = A1BD81681BEA56CB001A397E /* FlashCodeCalculatorForPad.xcdatamodel */;
-			path = FlashCodeCalculatorForPad.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A1BD81581BEA56CB001A397E /* Project object */;
 }
