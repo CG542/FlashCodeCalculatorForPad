@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A160B11D1BF77E8D00A0F13D /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B11C1BF77E8D00A0F13D /* Radio.swift */; };
+		A160B11F1BF7824A00A0F13D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B11E1BF7824A00A0F13D /* Model.swift */; };
+		A160B1211BF782E700A0F13D /* DBCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B1201BF782E700A0F13D /* DBCollection.swift */; };
+		A160B1231BF786A600A0F13D /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B1221BF786A600A0F13D /* Option.swift */; };
 		A17ED4421BEE3B0C009D06CF /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */; };
 		A17ED4431BEE3B0C009D06CF /* DB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A17ED43F1BEE3B0C009D06CF /* DB.bundle */; };
 		A17ED4461BEE3BBF009D06CF /* RadioFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A160B11C1BF77E8D00A0F13D /* Radio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Radio.swift; path = BusinessLayer/Radio.swift; sourceTree = "<group>"; };
+		A160B11E1BF7824A00A0F13D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = BusinessLayer/Model.swift; sourceTree = "<group>"; };
+		A160B1201BF782E700A0F13D /* DBCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBCollection.swift; path = BusinessLayer/DBCollection.swift; sourceTree = "<group>"; };
+		A160B1221BF786A600A0F13D /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Option.swift; path = BusinessLayer/Option.swift; sourceTree = "<group>"; };
 		A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = DatabaseLayer/DatabaseHelper.swift; sourceTree = "<group>"; };
 		A17ED43F1BEE3B0C009D06CF /* DB.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DB.bundle; path = DatabaseLayer/DB.bundle; sourceTree = "<group>"; };
 		A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioFamily.swift; path = DatabaseLayer/RadioFamily.swift; sourceTree = "<group>"; };
@@ -83,6 +91,10 @@
 		A15E42FC1BEA57930046C23D /* BusinessLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A160B11C1BF77E8D00A0F13D /* Radio.swift */,
+				A160B11E1BF7824A00A0F13D /* Model.swift */,
+				A160B1201BF782E700A0F13D /* DBCollection.swift */,
+				A160B1221BF786A600A0F13D /* Option.swift */,
 			);
 			name = BusinessLayer;
 			sourceTree = "<group>";
@@ -266,14 +278,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17ED4421BEE3B0C009D06CF /* DatabaseHelper.swift in Sources */,
+				A160B1211BF782E700A0F13D /* DBCollection.swift in Sources */,
 				A1C4719B1BF0F59000431922 /* FLASHCodeLetter.swift in Sources */,
 				A1C471951BF0D95000431922 /* HOption.swift in Sources */,
 				A1C471A11BF0FA2400431922 /* ModelNumberToHOptionCompatibility.swift in Sources */,
 				A17ED4461BEE3BBF009D06CF /* RadioFamily.swift in Sources */,
+				A160B11D1BF77E8D00A0F13D /* Radio.swift in Sources */,
+				A160B1231BF786A600A0F13D /* Option.swift in Sources */,
 				A1C4719D1BF0F74300431922 /* HOptionCompatibility.swift in Sources */,
 				A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */,
 				A1C471991BF0F3C300431922 /* FrequencyBandModelNumber.swift in Sources */,
 				A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */,
+				A160B11F1BF7824A00A0F13D /* Model.swift in Sources */,
 				A1C4719F1BF0F8C500431922 /* ModelNumber.swift in Sources */,
 				A1C471971BF0DFDF00431922 /* FrequencyBand.swift in Sources */,
 			);

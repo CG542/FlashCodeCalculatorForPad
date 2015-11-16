@@ -12,6 +12,7 @@ import CoreData
 class DatabaseHelper{
     
     // MARK: - Core Data stack
+    
     struct Static {
         static var instance:DatabaseHelper? = nil
         static var token:dispatch_once_t = 0
