@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1386D181BFF91830041E4A8 /* Admin.db in Resources */ = {isa = PBXBuildFile; fileRef = A1386D171BFF917E0041E4A8 /* Admin.db */; };
 		A160B11D1BF77E8D00A0F13D /* Radio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B11C1BF77E8D00A0F13D /* Radio.swift */; };
 		A160B11F1BF7824A00A0F13D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B11E1BF7824A00A0F13D /* Model.swift */; };
 		A160B1211BF782E700A0F13D /* DBCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B1201BF782E700A0F13D /* DBCollection.swift */; };
 		A160B1231BF786A600A0F13D /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = A160B1221BF786A600A0F13D /* Option.swift */; };
 		A17ED4421BEE3B0C009D06CF /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */; };
-		A17ED4431BEE3B0C009D06CF /* DB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A17ED43F1BEE3B0C009D06CF /* DB.bundle */; };
 		A17ED4461BEE3BBF009D06CF /* RadioFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */; };
 		A17ED4481BEE4770009D06CF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED4471BEE4770009D06CF /* libsqlite3.dylib */; };
 		A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD81651BEA56CB001A397E /* AppDelegate.swift */; };
@@ -41,12 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1386D171BFF917E0041E4A8 /* Admin.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = Admin.db; path = DB/Admin.db; sourceTree = "<group>"; };
 		A160B11C1BF77E8D00A0F13D /* Radio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Radio.swift; path = BusinessLayer/Radio.swift; sourceTree = "<group>"; };
 		A160B11E1BF7824A00A0F13D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = BusinessLayer/Model.swift; sourceTree = "<group>"; };
 		A160B1201BF782E700A0F13D /* DBCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBCollection.swift; path = BusinessLayer/DBCollection.swift; sourceTree = "<group>"; };
 		A160B1221BF786A600A0F13D /* Option.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Option.swift; path = BusinessLayer/Option.swift; sourceTree = "<group>"; };
 		A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseHelper.swift; path = DatabaseLayer/DatabaseHelper.swift; sourceTree = "<group>"; };
-		A17ED43F1BEE3B0C009D06CF /* DB.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DB.bundle; path = DatabaseLayer/DB.bundle; sourceTree = "<group>"; };
 		A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RadioFamily.swift; path = DatabaseLayer/RadioFamily.swift; sourceTree = "<group>"; };
 		A17ED4471BEE4770009D06CF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		A17ED4491BEE4ACA009D06CF /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "DatabaseLayer/Bridging-Header.h"; sourceTree = "<group>"; };
@@ -104,7 +104,6 @@
 			children = (
 				A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */,
 				A17ED43E1BEE3B0C009D06CF /* DatabaseHelper.swift */,
-				A17ED43F1BEE3B0C009D06CF /* DB.bundle */,
 				A17ED4491BEE4ACA009D06CF /* Bridging-Header.h */,
 				A1C471941BF0D95000431922 /* HOption.swift */,
 				A1C471961BF0DFDF00431922 /* FrequencyBand.swift */,
@@ -120,6 +119,7 @@
 		A1BD81571BEA56CB001A397E = {
 			isa = PBXGroup;
 			children = (
+				A1386D171BFF917E0041E4A8 /* Admin.db */,
 				A17ED4471BEE4770009D06CF /* libsqlite3.dylib */,
 				A15E42FD1BEA579B0046C23D /* DatabaseLayer */,
 				A15E42FC1BEA57930046C23D /* BusinessLayer */,
@@ -256,10 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1386D181BFF91830041E4A8 /* Admin.db in Resources */,
 				A1BD816E1BEA56CB001A397E /* Main.storyboard in Resources */,
 				A1BD81731BEA56CB001A397E /* LaunchScreen.xib in Resources */,
 				A1BD81701BEA56CB001A397E /* Images.xcassets in Resources */,
-				A17ED4431BEE3B0C009D06CF /* DB.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
