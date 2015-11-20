@@ -16,7 +16,7 @@ class Model{
         NSLog("Start \(modelFromDB.modelNumber)")
         model = modelFromDB
         supportedHoptionList = Array<Option>()
-        createAllHOptionsThruDB()
+        //createAllHOptionsThruDB()
         NSLog("End \(modelFromDB.modelNumber)")
     }
     
@@ -42,13 +42,19 @@ class Model{
     
     var modelNumber: String{
         get{
-            return self.model.modelNumber+" - "+self.model.description
+            return self.model.modelNumber//+" - "+self.model.description
         }
     }
     
     var hoptionList: Array<Option>{
         get{
-            return supportedHoptionList
+            if supportedHoptionList.count > 0{
+                return supportedHoptionList
+            }
+            else{
+                createAllHOptionsThruDB()
+                return supportedHoptionList
+            }
         }
     }
 }

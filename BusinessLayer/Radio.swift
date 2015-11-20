@@ -16,7 +16,7 @@ class Radio{
     init(radioFromDB: RadioFamily){
         radioFamily = radioFromDB
         supportedModels = Array<Model>()
-        createAllModelsThruDB()
+        //createAllModelsThruDB()
     }
     
     private func createAllModelsThruDB(){
@@ -44,7 +44,13 @@ class Radio{
     
     var modelList: Array<Model>{
         get{
-            return self.supportedModels
+            if supportedModels.count > 0{
+                return self.supportedModels
+            }
+            else{
+                createAllModelsThruDB()
+                return supportedModels
+            }
         }
     }
     

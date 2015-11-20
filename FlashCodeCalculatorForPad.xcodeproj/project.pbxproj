@@ -16,7 +16,7 @@
 		A17ED4461BEE3BBF009D06CF /* RadioFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17ED4451BEE3BBF009D06CF /* RadioFamily.swift */; };
 		A17ED4481BEE4770009D06CF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A17ED4471BEE4770009D06CF /* libsqlite3.dylib */; };
 		A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD81651BEA56CB001A397E /* AppDelegate.swift */; };
-		A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD816A1BEA56CB001A397E /* ViewController.swift */; };
+		A1BD816B1BEA56CB001A397E /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BD816A1BEA56CB001A397E /* ModelViewController.swift */; };
 		A1BD816E1BEA56CB001A397E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BD816C1BEA56CB001A397E /* Main.storyboard */; };
 		A1BD81701BEA56CB001A397E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BD816F1BEA56CB001A397E /* Images.xcassets */; };
 		A1BD81731BEA56CB001A397E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1BD81711BEA56CB001A397E /* LaunchScreen.xib */; };
@@ -53,7 +53,7 @@
 		A1BD81601BEA56CB001A397E /* FlashCodeCalculatorForPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCodeCalculatorForPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BD81641BEA56CB001A397E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1BD81651BEA56CB001A397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1BD816A1BEA56CB001A397E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1BD816A1BEA56CB001A397E /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
 		A1BD816D1BEA56CB001A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1BD816F1BEA56CB001A397E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A1BD81721BEA56CB001A397E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		A1BD81621BEA56CB001A397E /* FlashCodeCalculatorForPad */ = {
 			isa = PBXGroup;
 			children = (
-				A1BD816A1BEA56CB001A397E /* ViewController.swift */,
+				A1BD816A1BEA56CB001A397E /* ModelViewController.swift */,
 				A1BD816C1BEA56CB001A397E /* Main.storyboard */,
 				A1BD81631BEA56CB001A397E /* Supporting Files */,
 			);
@@ -286,7 +286,7 @@
 				A160B11D1BF77E8D00A0F13D /* Radio.swift in Sources */,
 				A160B1231BF786A600A0F13D /* Option.swift in Sources */,
 				A1C4719D1BF0F74300431922 /* HOptionCompatibility.swift in Sources */,
-				A1BD816B1BEA56CB001A397E /* ViewController.swift in Sources */,
+				A1BD816B1BEA56CB001A397E /* ModelViewController.swift in Sources */,
 				A1C471991BF0F3C300431922 /* FrequencyBandModelNumber.swift in Sources */,
 				A1BD81661BEA56CB001A397E /* AppDelegate.swift in Sources */,
 				A160B11F1BF7824A00A0F13D /* Model.swift in Sources */,
