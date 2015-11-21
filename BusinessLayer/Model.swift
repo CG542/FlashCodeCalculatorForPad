@@ -13,11 +13,11 @@ class Model{
     private var supportedHoptionList: Array<Option>
     
     init(modelFromDB: ModelNumber){
-        NSLog("Start \(modelFromDB.modelNumber)")
+        //NSLog("Start \(modelFromDB.modelNumber)")
         model = modelFromDB
         supportedHoptionList = Array<Option>()
         //createAllHOptionsThruDB()
-        NSLog("End \(modelFromDB.modelNumber)")
+        //NSLog("End \(modelFromDB.modelNumber)")
     }
     
     private func createAllHOptionsThruDB(){
@@ -55,6 +55,12 @@ class Model{
                 createAllHOptionsThruDB()
                 return supportedHoptionList
             }
+        }
+    }
+    
+    func clearAllSelection(){
+        for item in hoptionList{
+            item.isChecked = false
         }
     }
 }

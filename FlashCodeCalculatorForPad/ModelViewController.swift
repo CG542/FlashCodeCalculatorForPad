@@ -9,15 +9,12 @@
 import UIKit
 
 class ModelViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
-
-    var selectedRadio: Radio? 
-    var selectedModel: Model?
     
     @IBOutlet weak var picker: UIPickerView!
     
     override func viewDidLoad(){
-        self.selectedRadio = DBCollection.sharedInstance().radioList[0]
-        self.selectedModel = self.selectedRadio?.modelList[0]
+        DBCollection.sharedInstance().selectedRadio = DBCollection.sharedInstance().radioList[0]
+        DBCollection.sharedInstance().selectedModel = DBCollection.sharedInstance().radioList[0].modelList[0]
     }
     
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
@@ -29,13 +26,7 @@ class ModelViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             return DBCollection.sharedInstance().radioList.count
         }
         else{
-            if(self.selectedRadio != nil){
-                return DBCollection.sharedInstance().radioList.filter({$0.id == self.selectedRadio!.id
-                }).first!.modelList.count
-            }
-            else{
-                return DBCollection.sharedInstance().radioList[0].modelList.count
-            }
+            return DBCollection.sharedInstance().selectedRadio?.modelList.count ?? DBCollection.sharedInstance().radioList[0].modelList.count
         }
     }
     
@@ -44,28 +35,18 @@ class ModelViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
             return DBCollection.sharedInstance().radioList[row].radioName
         }
         else{
-            if(self.selectedRadio != nil){
-                return DBCollection.sharedInstance().radioList.filter({$0.id == self.selectedRadio!.id
-                }).first!.modelList[row].modelNumber
-            }
-            else{
-                return DBCollection.sharedInstance().radioList[0].modelList[row].modelNumber
-            }
+            return DBCollection.sharedInstance().selectedRadio?.modelList[row].modelNumber ?? DBCollection.sharedInstance().radioList[0].modelList[row].modelNumber
         }
     }
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         if(component == 0){
-            self.selectedRadio = DBCollection.sharedInstance().radioList[row]
-            self.selectedModel = self.selectedRadio?.modelList[0]
+            DBCollection.sharedInstance().selectedRadio = DBCollection.sharedInstance().radioList[row]
+            DBCollection.sharedInstance().selectedModel = DBCollection.sharedInstance().selectedRadio?.modelList[0]
             self.picker.reloadComponent(1)
-            NSLog("Selected Radio is \(self.selectedRadio?.radioName)")
-            NSLog("Selected Model is \(self.selectedModel?.modelNumber)")
         }
         else{
-            self.selectedModel = DBCollection.sharedInstance().radioList.filter({$0.id == self.selectedRadio!.id
-            }).first!.modelList[row]
-            NSLog("Selected Model is \(self.selectedModel?.modelNumber)")
+            DBCollection.sharedInstance().selectedModel = DBCollection.sharedInstance().selectedRadio!.modelList[row]
         }
     }
 }

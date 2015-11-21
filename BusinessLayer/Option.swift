@@ -13,7 +13,7 @@ class Option{
     
     init(optionFromDB: HOption){
         hOption = optionFromDB
-        
+        isChecked=false
     }
 
     var id: Int{
@@ -35,4 +35,6 @@ class Option{
             }
         }
     }
+    
+    var isChecked: Bool;
 }

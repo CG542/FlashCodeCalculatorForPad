@@ -73,5 +73,26 @@ class DBCollection {
             return supportedRadios
         }
     }
+    
+    var selectedRadio: Radio?{
+        didSet{
+            NSLog("Selected Radio is \(selectedRadio?.radioName)")
+        }
+    }
+    var selectedModel: Model?{
+        didSet{
+            NSLog("Selected Model is \(DBCollection.sharedInstance().selectedModel?.modelNumber)")
+        }
+    }
+    
+    func getFlashCode() -> String{
+        var n: Int = 0
+        for item in self.selectedModel!.hoptionList{
+            if item.isChecked{
+                n++
+            }
+        }
+        return "You have selected \(n) options"
+    }
 
 }
