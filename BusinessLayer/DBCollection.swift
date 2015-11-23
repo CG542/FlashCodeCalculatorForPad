@@ -27,7 +27,7 @@ class DBCollection {
         private static var allModelNumbers = ModelNumber().findAll()
         private static var allHoptions = HOption().findAll()
         private static var allModelNumberToHOptions = ModelNumberToHOptionCompatibility().findAll()
-        
+        private static var flashcodeLetter = FLASHCodeLetter().findAll()
         static var radioListFromDB: Array<RadioFamily>{
             get{
                 return allRadios
@@ -49,6 +49,12 @@ class DBCollection {
         static var modelNumberToHOptionsListFromDB: Array<ModelNumberToHOptionCompatibility>{
             get{
                 return allModelNumberToHOptions
+            }
+        }
+        
+        static var flashcodeLetterFromDB: Array<FLASHCodeLetter>{
+            get{
+                return flashcodeLetter
             }
         }
     }
@@ -87,12 +93,23 @@ class DBCollection {
     
     func getFlashCode() -> String{
         var n: Int = 0
+        var bandList = [Option]()
+        var optionList = [Option]()
+        
         for item in self.selectedModel!.hoptionList{
             if item.isChecked{
+                if(item.cpHoption.bitsValue>0){
+                    bandList.append(item)
+                }
+                else{
+                    optionList.append(item)
+                }
                 n++
             }
         }
-        return "You have selected \(n) options"
+        
+        
+        return "You have selected \(n) options. The Flashcode is \(Flashcode().getFlashCodeByHoptonList(bandList, ops: optionList))"
     }
 
 }

@@ -25,6 +25,7 @@ class HOptionViewController: UITableViewController,UITableViewDelegate, UITableV
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        NSLog("Hoption number is \(DBCollection.sharedInstance().selectedModel!.hoptionList.count)")
         return DBCollection.sharedInstance().selectedModel!.hoptionList.count
     }
 

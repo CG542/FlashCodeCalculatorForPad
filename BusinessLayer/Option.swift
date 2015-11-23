@@ -9,7 +9,7 @@
 import Foundation
 
 class Option{
-    private var hOption: HOption
+     private var hOption: HOption
     
     init(optionFromDB: HOption){
         hOption = optionFromDB
@@ -33,6 +33,12 @@ class Option{
             else{
                 return hOption.portableHOption+" "+hOption.description
             }
+        }
+    }
+    
+    var cpHoption: HOption{
+        get{
+            return hOption
         }
     }
     
